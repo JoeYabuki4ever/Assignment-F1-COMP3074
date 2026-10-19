@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light">
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:navigationBarColor">@color/navy</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:actionBarStyle">@style/AppActionBar</item>
+    </style>
+    <style name="AppActionBar" parent="android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:background">@color/surface</item>
+        <item name="android:titleTextStyle">@style/AppActionBarTitle</item>
+    </style>
+    <style name="AppActionBarTitle" parent="android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/navy</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+COMP3074 - ASSIGNMENT 1 SUBMISSION STEPS
+=======================================
+1) Extract the ZIP. On Windows run gradlew.bat --version from the project folder
+   to install the official Gradle wrapper. Then open the PROJECT FOLDER in Android Studio.
+2) Name Taharim Haque and student ID 101418321 are already set in strings.xml.
+   Verify both appear on the About screen.
+3) Gradle settings: choose JDK 17 or 21 (not JDK 25 for Gradle 8.9).
+4) Let Gradle sync; install Android SDK Platform 35 if Android Studio asks.
+5) Run on Pixel 8 emulator or other Android phone.
+6) Test: hours 45, hourly rate 20, tax 0.10 => pay 800, overtime 150,
+   total 950, tax 80. Verify About screen and top-left back arrow.
+7) If Gradle wrapper JAR is missing, run gradlew.bat --version in project folder
+   on Windows to fetch the official wrapper, then re-sync Android Studio.
+8) Create a GitHub repository, upload/push the entire project contents;
+   be sure to include gradle/wrapper/gradle-wrapper.jar after first setup.
+9) Open aud.pdf: name and student ID are already filled. Add submission date,
+   complete remaining review/reflection fields truthfully, and save the file.
+   The form is NOT ready for submission if required fields remain blank.
+10) Brightspace/D2L > COMP3074 > Assignments > Assignment 1:
+    submit your GitHub repository LINK and the file aud.pdf, then confirm.
+
+Due on assignment: October 18, 2026; cutoff October 25, 2026.
+READ README.md for detailed instructions, tests, and interview preparation.

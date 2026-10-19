@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Payroll Calculator</string>
+    <string name="about_title">About</string>
+    <string name="heading">Calculate your pay</string>
+    <string name="intro">Enter your work hours, hourly rate, and tax rate to see your paycheck breakdown.</string>
+    <string name="hours_label">Hours worked</string>
+    <string name="hourly_rate_label">Hourly rate</string>
+    <string name="tax_rate_label">Tax rate (decimal)</string>
+    <string name="tax_hint">Use 0.20 for 20 percent tax</string>
+    <string name="hours_hint">Example: 45</string>
+    <string name="rate_hint">Example: 20.00</string>
+    <string name="tax_input_hint">Example: 0.10</string>
+    <string name="calculate_button">Calculate pay</string>
+    <string name="reset_button">Clear</string>
+    <string name="about_button">About this app</string>
+    <string name="results_heading">Payroll breakdown</string>
+    <string name="pay_label">Regular pay</string>
+    <string name="overtime_label">Overtime pay</string>
+    <string name="total_label">Total pay</string>
+    <string name="tax_label">Tax</string>
+    <string name="tax_note">As specified in Assignment 1, tax is calculated on regular pay only: tax = pay × tax rate.</string>
+    <string name="validation_error">Enter a non-negative number for %1$s.</string>
+    <string name="tax_rate_error">Tax rate must be from 0 to 1 (example: 0.20).</string>
+    <string name="student_name">Taharim Haque</string>
+    <string name="student_id">101418321</string>
+    <string name="about_subtitle">COMP3074 · Assignment 1 · Fall 2026</string>
+    <string name="about_name_label">Full name</string>
+    <string name="about_id_label">Student ID</string>
+    <string name="about_description">This Android app calculates regular pay, overtime pay, total pay, and tax using the assignment formulas. Overtime begins after 40 hours and is paid at 1.5 times the hourly rate.</string>
+    <string name="about_back_note">Use the arrow in the top-left ActionBar to return to the calculator without creating another MainActivity.</string>
+</resources>
